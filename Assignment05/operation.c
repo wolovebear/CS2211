@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
      */
     if(argc != 5){
         printf("Error argument!!!\n");
+		printf("The argument form should be: ./operation number number number number\n");
         return 1;
     }
     else {
